@@ -7,6 +7,7 @@ import "@refinedev/antd/dist/reset.css";
 
 import { authProvider, dataProvider, liveProvider } from "./providers";
 import {Home, ForgotPassword, Login, Register} from "./pages";
+console.log('dataProvider:', dataProvider); // ← adiciona isso
 
 import routerProvider, {
   CatchAllNavigate,

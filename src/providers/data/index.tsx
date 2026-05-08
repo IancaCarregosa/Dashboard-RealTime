@@ -2,7 +2,6 @@ import graphqlDataProvider, {
     GraphQLClient,
     liveProvider as graphqlLiveProvider
 } from "@refinedev/nestjs-query";
-import { url } from "inspector";
 import {fetchWrapper} from './fetch-wrapper'
 import { createClient } from "graphql-ws";
 
